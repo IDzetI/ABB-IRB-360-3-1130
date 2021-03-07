@@ -52,8 +52,8 @@ function visualization(q)
     grid on;
     set(plt, 'LineWidth', 3 );
     title('Robot – ABB IRB 360-3/1130')
-    xlabel('X')
-    ylabel('Y')
-    zlabel('Z')
+    xlabel('X,mm')
+    ylabel('Y,mm')
+    zlabel('Z,mm')
 end
 
